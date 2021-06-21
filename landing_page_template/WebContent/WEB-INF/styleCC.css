@@ -1,0 +1,381 @@
+@charset "UTF-8";
+
+
+.main_title 
+{
+
+position: relative;
+/*height: 75px;*/
+display: flex;
+justify-content: center;
+align-items: center;
+
+top: 83px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+line-height: 20px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.title_background
+{
+/* Rectangle 78 */
+position: absolute;
+width: 100%;
+height: 634px;
+left: 0px;
+top: 0px;
+}
+
+.contribution
+{
+position: relative;
+height: 75px;
+/*left: 29%;*/
+display: flex;
+justify-content: center;
+align-items: center;
+
+top: 5%;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 75px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.email_field
+{
+position: relative;
+
+display:block; margin : 0 auto;
+/*padding: 0px;*/
+width: 363.14px;
+height: 62px;
+top: 100px;
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+
+.subscribe
+{
+position: relative;
+background: #1E73BE;
+width: 300px;
+height: 80px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #FFFFFF;
+border-radius: 8.08264px;
+
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+top: 160px;
+}
+
+.Benefits_section
+{
+position: relative;
+width: 100%;
+height: 757px;
+top: 634px;
+background: #F5F5F5;
+}
+
+.Benefits_title
+{
+position: relative;
+margin: auto;
+text-align: center;
+height: 42px;
+top: 10%;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 44px;
+line-height: 42px;
+color: #000000;
+}
+
+.Benefits_image{
+position: absolute;
+width: 475.73px;
+height: 403.07px;
+left: 21%;
+top: 23%;
+
+background: rgba(19, 19, 19, 0.5);
+border-radius: 19.4115px;
+}
+
+.Benefits_text
+{
+position: absolute;
+width: 430px;
+height: 454px;
+left: 59%;
+top: 23%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 26.3812px;
+line-height: 31px;
+color: #242D2E;
+}
+
+.Benefits_button{
+position: relative;
+width: 300px;
+height: 80px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #1E73BE;
+
+background: #FFFFFF;
+border: 5px solid #1E73BE;
+box-sizing: border-box;
+border-radius: 8.08264px;
+
+}
+
+.Events_section{
+position: relative;
+width: 100%;
+height: 757px;
+top: 610px;
+background: #FFFFFF;
+}
+
+.Events_description{
+position: absolute;
+width: 727px;
+height: 56px;
+top: 15%;
+left: 24%;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+color: #000000;
+}
+
+.Event_column{
+position: absolute;
+width: 276.89px;
+height: 418.36px;
+top: 30%;
+
+background: #F4F4F1;
+border-radius: 4.31298px;
+}
+
+.Column_image{
+position: absolute;
+width: 60%;
+height: 150px;
+left: 20%;
+top: -10%;
+background: #767676;
+border-radius: 19.4115px;	
+}
+
+
+.Video_section{
+position: relative;
+width: 100%;
+height: 700px;
+top: 700px;
+background: #FFFFFF;	
+}
+
+.video_sub_section{
+position: absolute;
+width: 1029.95px;
+height: 416.48px;
+left: 16.8%;
+top: 240px;
+
+background: #F3F2ED;
+border-radius: 28.9447px;
+}
+
+.video_buffer{
+position: absolute;
+width: 731px;
+height: 400px;
+left: -5%;
+top: -12%;
+
+background: #8D909A;
+}
+
+.video_script{
+position: absolute;
+width: 300px;
+height: 56px;
+left: 68.5%;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+color: #000000;
+
+}
+
+.Contact_section{
+position: relative;
+width: 100%;
+height: 300px;
+left: 0px;
+
+top: 1791px;
+background: #555658;
+
+
+}
+.Contact_section_sub{
+position: relative;
+width: 100%;
+height: 300px;
+left: 0px;
+
+top: 1791px;
+background: #767676;	
+}
+
+.Contact_text{
+position: absolute;
+width: 600px;
+height: 454px;
+left: 5%;
+top: 10%;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+color: #FFFFFF;
+}
+
+
+.Contact_button{
+position: relative;
+width: 300px;
+height: 80px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 53px;
+color: #1E73BE;
+
+background: #FFFFFF;
+border: 5px solid #1E73BE;
+box-sizing: border-box;
+border-radius: 8.08264px;
+
+left: 62%;
+top: 30%;
+}
+
+/* ------ Thank you page --------*/
+
+.ThankYou_title 
+{
+position: relative;
+/*height: 75px;*/
+display: flex;
+justify-content: center;
+align-items: center;
+top: 85px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 70px;
+line-height: 20px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.Thanks_text{
+position: relative;
+height: 30px;
+/*left: 29%;*/
+display: flex;
+justify-content: center;
+align-items: center;
+
+top:11%;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 60px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.icon_frame {
+position: relative;
+top: 13%;
+float: left;
+width: 110px;
+height: 110px;
+margin: 20px;
+shape-outside: circle();
+clip-path: circle();
+background: #c0c0c0;
+}
+
+.Share_text{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+top:35%;
+left: -30%;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-size: 20px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.Link_copy{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+top:28%;
+left:-15%;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+text-decoration: underline;
+font-size: 20px;
+/* identical to box height */
+color: #FFFFFF;
+}
