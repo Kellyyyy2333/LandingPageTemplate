@@ -5,6 +5,8 @@
 <%@ page import="java.util.*" %>
 
 <% 	
+	// Option1: For testing the database connection functionality.
+	
 	int adID = 1;
 	/*if (request.getParameter("adId") != null) {
 		adID = Integer.parseInt(request.getParameter("adId")); 	
@@ -20,6 +22,7 @@
 %>
 
 <%!
+	// Option2: For testing the server functionality. (Manully input values for each class attribute, instead of constructing using a Map<String,String> object retrieved from database.)
 	
 	/*DonationNetworkForGood o = new DonationNetworkForGood("#635b5b","GTM-T9VQ4NJ", "Peace Learning Center", 
 			"help create inclusive classrooms, boardrooms, and living rooms places where social and emotional learning and restorative practices are the norm, not the exception",
